@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+.card{
+    background: linear-gradient(360deg, rgba(28,31,34,1) 0%, rgba(37,45,55,1) 100%);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../dist/output.css">
+  <script src="https://kit.fontawesome.com/20d93d1e7e.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body class="bg-veryDarkBlue flex items-center justify-center font-overpass min-h-screen">
+  <div id="card" class="flex flex-col bg-darkBlue w-11/12 mx-auto max-w-sm p-7 rounded-2xl card animate-bounceTwice">
+    
+    <h1 class="text-2xl text-white font-bold order-2 mt-4">How did we do?</h1>
+    <p class="text-sm text-lightGrey order-2 mt-3">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div class="order-1 bg-darkBlue flex items-center justify-center p-4 rounded-full w-10 h-10 cursor-pointer mt-3">
+      <i class="fa-solid fa-star text-primaryOrange"></i>
+    </div>
+    <div id="reviews" class="order-2 flex flex-wrap mt-5 text-lightGrey font-bold  w-auto gap-4">
+      <button class="focus:bg-primaryOrange focus:text-white active:bg-primaryOrange focus:text-white hover:bg-lightGrey hover:text-white bg-lightDarkBlue flex items-center justify-center p-4 rounded-full w-10 h-10 cursor-pointer">
+        1
+      </button>
+      <button class="focus:bg-primaryOrange focus:text-white active:bg-primaryOrange focus:text-white hover:bg-lightGrey hover:text-white bg-lightDarkBlue flex items-center justify-center p-4 rounded-full w-10 h-10 cursor-pointer">
+        2
+      </button>
+      <button class="focus:bg-primaryOrange focus:text-white active:bg-primaryOrange focus:text-white hover:bg-lightGrey hover:text-white bg-lightDarkBlue flex items-center justify-center p-4 rounded-full w-10 h-10 cursor-pointer">
+        3
+      </button>
+      <button class="focus:bg-primaryOrange focus:text-white active:bg-primaryOrange focus:text-white hover:bg-lightGrey hover:text-white bg-lightDarkBlue flex items-center justify-center p-4 rounded-full w-10 h-10 cursor-pointer">
+        4
+      </button>
+      <button class="focus:bg-primaryOrange focus:text-white active:bg-primaryOrange focus:text-white hover:bg-lightGrey hover:text-white bg-lightDarkBlue flex items-center justify-center p-4 rounded-full w-10 h-10 cursor-pointer"> 
+        5
+      </button>
+      
+    </div>
+    <button id="submit" class="hover:bg-white hover:text-primaryOrange focus:bg-white focus:text-primaryOrange active:bg-white active:text-primaryOrange order-2 mt-5 uppercase bg-primaryOrange text-white rounded-full p-4 font-bold tracking-widest">Submit</button>
+    
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
